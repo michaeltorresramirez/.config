@@ -11,12 +11,13 @@
 
 call plug#begin()
 
+Plug 'https://github.com/romainl/vim-cool'
+Plug 'https://github.com/cohama/lexima.vim' 
 Plug 'http://github.com/tpope/vim-surround'
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
-" Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 Plug 'https://github.com/tc50cal/vim-terminal'
 Plug 'https://github.com/preservim/tagbar'
 
