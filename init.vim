@@ -31,6 +31,7 @@ set encoding=UTF-8
 
 call plug#end()
 
+autocmd BufEnter * execute 'lcd %:p:h'
 
 " use <tab> to trigger completion and navigate to the next complete item
 function! CheckBackspace() abort
